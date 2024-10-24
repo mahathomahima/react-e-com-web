@@ -1,0 +1,92 @@
+.loginsignup{
+    width: 100%;
+    height: 100vh;
+    background: #fce3fe;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.login-image{
+    width: 40%;
+}
+.form-container{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 480px;
+    height: 520px;
+}
+.form-toggle{
+    display: flex;
+    justify-content: space-between;
+}
+.form-toggle button{
+    width: 50%;
+    height: 55px;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px 10px 0 0;
+}
+.form-toggle .active{
+    background-color: #033452;
+    color: white;
+}
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+.loginsignup-fields input{
+    margin-bottom: 5px;
+    padding: 15px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.button{
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #033452;
+    color: white;
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 15px;
+    font-weight: 300;
+}
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 400;
+}
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 15px;
+    font-weight: 400;
+}
+.loginsignup-fields a{
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 0px;
+    text-align: right;
+    margin-top: 0px;
+}
